@@ -119,6 +119,10 @@ Data profiling typically involves three main types of analysis:
 
 ### Scoring
 
+Posibile implementations:
+1. Option 1
+2. Option 2
+3. Option 3
 
 ### Implementation
 
@@ -130,9 +134,18 @@ Data profiling typically involves three main types of analysis:
 6. Monitoring data quality metrics over time
 
 
-
 ### Tools
 
-1. DBT for Postgres, BigQuery, DataBricks, Azure Synapse
+1. DBT
 2. AWS Deequ
 3. Great Expectation
+
+# Exercises
+
+1. Based on the given schema, define and calculate data quality metric( business rules, 6 dimensions )
+    1. Sample data in Postgres
+2. Create a dashboard in Grafana that shows the current data quality status
+3. Based on the data quality metrics calculate data quality scoring 
+4. Update the dashboard and with the data quality scoring
+5. Run the data catalog on local machine
+6. Enhance the data catalog with labels based on the data quality metrics
